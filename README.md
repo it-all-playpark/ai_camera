@@ -25,14 +25,17 @@ services:
       - type: bind
         source: ./app
         target: /workspace
+      - type: bind
+        source: ~/.ssh
+        target:  /root/.ssh
       - /workspace/opencv
     ports:
       - 18080:18080
     working_dir: /workspace
-    command: sh -c 
+    command: sh
     tty: true
 ```
-
+` Ctr+q `押下した後` Sift+z `を2回押すことでファイル保存
 ## 開発環境をローカルにコピー
 ai_cameraディレクトリにいると思うので、下記コマンドでappディレクトリに入る
 ```
