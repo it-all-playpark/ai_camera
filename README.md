@@ -35,7 +35,7 @@ services:
     command: sh
     tty: true
 ```
-` Ctr+q `押下した後` Sift+z `を2回押すことでファイル保存
+` Ctrl+q `押下した後` Shift+z `を2回押すことでファイル保存
 ## 開発環境をローカルにコピー
 ai_cameraディレクトリにいると思うので、下記コマンドでappディレクトリに入る
 ```
