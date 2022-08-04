@@ -47,7 +47,7 @@ git init
 ```
 git clone
 ```
-git clone [TBD]
+git clone git@github.com:it-all-playpark/ai_camera.git
 ```
 ## コンテナ起動
 appディレクトリにいると思うので、ai_cameraディレクトリに移動
